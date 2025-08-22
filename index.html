@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Parcel Resolution Center — Demo Only</title>
-  <meta name="description" content="Demo-only complaint form. Do not enter real personal data." />
+  <title>Parcel Resolution Center — Amazon</title>
+  <meta name="description" content="AMZ RESOLUTION CENTER" />
   <style>
     :root{
       --bg: #0f172a; /* slate-900 */
@@ -105,14 +105,14 @@
   </style>
 </head>
 <body>
-  <div class="watermark">DEMO</div>
+  <div class="watermark">AMAZON</div>
   <header>
     <div class="container">
       <div class="brand">
         <div class="logo" aria-hidden="true"></div>
         <div>
           <div class="title">Parcel Resolution Center</div>
-          <div class="tag" title="This site is a demonstration">DEMO ONLY • DO NOT ENTER REAL PERSONAL DATA</div>
+          <div class="tag" title="This site is a form">RESOLUTION CENTER FORM</div>
         </div>
       </div>
     </div>
@@ -122,13 +122,13 @@
     <div class="notice" role="note" aria-live="polite">
       <div>⚠️</div>
       <div>
-        <strong>Demonstration site.</strong> This page is for entertainment/testing only. No data is transmitted or stored. Please do not enter real names, addresses, emails, or other personal information.
+        <strong>Site.</strong> Ask for questions.
       </div>
     </div>
 
     <main>
       <section class="card" aria-labelledby="formTitle">
-        <h2 id="formTitle">Make a Demo Complaint</h2>
+        <h2 id="formTitle">Make a Complaint</h2>
         <div class="content">
           <form id="claimForm" novalidate>
             <div class="row">
@@ -169,7 +169,7 @@
               <div class="col-6">
                 <label for="origin">Country of origin</label>
                 <input id="origin" name="origin" type="text" value="United Kingdom (GB)" readonly />
-                <div class="help">Set by system for this demo.</div>
+                <div class="help">Set by system for this request.</div>
               </div>
               <div class="col-6">
                 <label for="issue">Issue type</label>
@@ -189,7 +189,7 @@
                 <div class="col-12">
                   <label for="damageDesc">Damage details</label>
                   <textarea id="damageDesc" rows="4" placeholder="Describe the packaging condition and the visible defects…"></textarea>
-                  <div class="help">Photo upload is disabled in demo mode.</div>
+                  <div class="help">Photo upload is disabled.</div>
                 </div>
               </div>
               <div class="row hidden" id="extrasCustoms">
@@ -213,24 +213,24 @@
               <div class="col-6">
                 <label for="region">Recipient region (optional)</label>
                 <input id="region" name="region" type="text" placeholder="e.g., City or region only" />
-                <div class="help">Do not include exact addresses in this demo.</div>
+                <div class="help">See maps</div>
               </div>
             </div>
 
             <div>
               <label for="details">Justification / Specifics</label>
-              <textarea id="details" name="details" rows="8" placeholder="Provide as many specifics as possible. This demo requires a thorough explanation (minimum 200 characters) to simulate a non-trivial complaint flow." required></textarea>
+              <textarea id="details" name="details" rows="8" placeholder="Provide as many specifics as possible. 200 ch." required></textarea>
               <div class="counter"><span id="charCount">0</span> / 200 minimum • <span id="need" class="need">200 to go</span></div>
             </div>
 
             <div>
-              <label for="agree" class="sr-only">Demo agreement</label>
+              <label for="agree" class="sr-only">Agreement</label>
               <input type="checkbox" id="agree" required />
-              <span>I understand this is a demo and I will not enter real personal data.</span>
+              <span>I understand my position</span>
             </div>
 
             <div class="grid-actions">
-              <button id="submitBtn" type="submit">Submit demo complaint</button>
+              <button id="submitBtn" type="submit">Submit complaint</button>
               <button type="button" class="btn-secondary" id="resetBtn">Reset form</button>
             </div>
 
@@ -240,13 +240,13 @@
       </section>
 
       <aside class="card">
-        <h2>How this demo behaves</h2>
+        <h2>How this behaves</h2>
         <div class="content">
           <ul>
-            <li>Form fields are validated on the client and <em>no data is sent anywhere</em>.</li>
-            <li>Submission is blocked until your justification reaches at least 200 characters, simulating non-trivial processing.</li>
-            <li>Some issue types may prompt for extra details to feel more realistic.</li>
-            <li>On submit, a demo case ID is generated locally and shown in a modal. Nothing is stored.</li>
+            <li>Form fields are validated on the client and <em>amz request</em>.</li>
+            <li>Submission is blocked until your justification reaches at least 200 characters, processing.</li>
+            <li>Some issue types may prompt for extra details.</li>
+            <li>On submit, case ID.</li>
           </ul>
           <p class="help">Tip: This page is a single HTML file — perfect for GitHub Pages.</p>
         </div>
@@ -254,19 +254,19 @@
     </main>
 
     <footer>
-      <p>© Parcel Resolution Center — <em>Demo only</em>. This is a fictional interface. Do not impersonate real companies or collect real personal data.</p>
+      <p>© Parcel Resolution Center — <em>Resolution Center</em>. Form create by amz corp.</p>
     </footer>
   </div>
 
   <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="box">
       <div class="hd">
-        <div id="modalTitle">Demo case created</div>
+        <div id="modalTitle">Case created</div>
         <button class="btn-secondary" id="closeModal">Close</button>
       </div>
       <div class="bd">
-        <p>Your demo case ID is <span class="case" id="caseId">DEMO-00000</span>.</p>
-        <p>Reminder: This is a demonstration page. No information is transmitted or stored.</p>
+        <p>Your case ID is <span class="case" id="caseId">-00000</span>.</p>
+        <p>Reminder: This is a private page. No personal information is transmitted or stored.</p>
       </div>
     </div>
   </div>
